@@ -184,7 +184,6 @@ describe 'File Templates', ->
         runs ->
           expect(atom.workspace.getActiveTextEditor().getGrammar().scopeName).toBe 'text.plain.null-grammar'
 
-
   describe 'Deleteting a Template', ->
     it 'should allow deletion of a template', ->
       atom.commands.dispatch atom.views.getView(atom.workspace), 'file-templates:delete-template'

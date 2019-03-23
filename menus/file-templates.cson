@@ -1,3 +1,8 @@
+'context-menu':
+  '.tree-view > .name': [
+    {label: 'New file from template', command: 'file-templates:new-file'}
+  ]
+
 'menu': [
   {
     'label': 'Packages'
